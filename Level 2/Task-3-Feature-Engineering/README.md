@@ -2,64 +2,52 @@
 
 ## Objective
 
-Create additional features from the restaurant dataset to make the data more useful for analysis and machine learning.
+Create additional features from the restaurant dataset to improve data
+analysis and prepare the dataset for further machine learning tasks.
 
 ## Features Created
 
-### 1. Restaurant Name Length
+The following features were created:
 
-Calculated the number of characters in each restaurant name.
+1. **Restaurant Name Length**
+   - Calculates the number of characters in the restaurant name.
 
-### 2. Address Length
+2. **Address Length**
+   - Calculates the number of characters in the restaurant address.
 
-Calculated the number of characters in each restaurant address.
+3. **Has Table Booking Encoded**
+   - Converts table booking availability into numerical values:
+     - Yes = 1
+     - No = 0
 
-### 3. Table Booking Encoding
+4. **Has Online Delivery Encoded**
+   - Converts online delivery availability into numerical values:
+     - Yes = 1
+     - No = 0
 
-Converted the `Has Table booking` categorical feature into a numerical feature:
+## Dataset Summary
 
-* `Yes` → `1`
-* `No` → `0`
+- Original rows: 9,551
+- Original columns: 21
+- Final columns: 25
+- Missing values after feature engineering: 0
+- Duplicate rows: 0
 
-### 4. Online Delivery Encoding
+## Tools and Technologies
 
-Converted the `Has Online delivery` categorical feature into a numerical feature:
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
 
-* `Yes` → `1`
-* `No` → `0`
+## Output
 
-## Final Dataset
+The feature-engineered dataset was saved as:
 
-The original dataset contained:
-
-* 9,551 rows
-* 21 columns
-
-Four additional features were created, resulting in:
-
-* 9,551 rows
-* 25 columns
-
-## Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Jupyter Notebook
-
-## Files
-
-* `Task3.ipynb` - Complete feature engineering analysis
-* `README.md` - Task description and results
-
-## Dataset
-
-The dataset was used locally during the analysis.
-
-The CSV dataset is not included in the GitHub repository because CSV files are excluded through `.gitignore`.
+`Feature_Engineered_Dataset.csv`
 
 ## Conclusion
 
-Feature engineering successfully converted existing textual and categorical information into useful numerical features.
-
-The new features can be used in subsequent exploratory analysis and machine learning models.
+Feature engineering added four useful numerical features to the restaurant
+dataset. These features can be used for further analysis and machine learning
+tasks.
