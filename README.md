@@ -1,6 +1,5 @@
 # Restaurant Data Analysis and Predictive Modeling
 
-This repository contains my work completed during the Cognifyz Data Science Internship.
 
 ## About the Internship
 
@@ -9,7 +8,7 @@ The internship focuses on practical data science tasks involving data exploratio
 ## Project Structure
 
 ```text
-Data-Science-Internship/
+Restaurant Data Analysis and Predictive Modeling/
 │
 ├── Level 1/
 │   ├── Task-1-Data-Exploration/
