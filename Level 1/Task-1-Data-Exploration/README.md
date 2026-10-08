@@ -1,6 +1,6 @@
 # Level 1 - Task 1: Data Exploration and Preprocessing
 
-## Cognifyz Data Science Internship
+## Restaurant-Data-Analysis-and-Predictive-Modeling
 
 ### Objective
 
@@ -83,7 +83,7 @@ The cleaned dataset is now prepared for further analysis.
 ## Files
 
 - `Task1.ipynb` - Jupyter Notebook containing the complete analysis and code.
-- `Cognifyz_Cleaned_Dataset.csv` - Cleaned dataset generated during preprocessing.
+- `Cleaned_Dataset.csv` - Cleaned dataset generated during preprocessing.
 - `Task-1-Data-Exploration.pdf` - Report containing the analysis, visualizations, and conclusions.
 
 ## Tools and Technologies
