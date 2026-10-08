@@ -9,7 +9,7 @@ The internship focuses on practical data science tasks involving data exploratio
 ## Project Structure
 
 ```text
-Cognifyz-Data-Science-Internship/
+Data-Science-Internship/
 │
 ├── Level 1/
 │   ├── Task-1-Data-Exploration/
